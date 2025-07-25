@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cigar Menu</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fdf8f0;
+      color: #333;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #4a2c12;
+    }
+    .brand-section {
+      margin-top: 50px;
+      border-top: 2px solid #c4a77d;
+      padding-top: 20px;
+    }
+    .cigar {
+      margin-bottom: 30px;
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      grid-gap: 15px;
+      align-items: center;
+    }
+    .cigar-info {
+      grid-column: 2;
+    }
+    .cigar-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #2e1c0e;
+    }
+    .label {
+      font-weight: bold;
+      color: #7b5b35;
+    }
+    .divider {
+      border-bottom: 1px dashed #ccc;
+      margin: 15px 0;
+    }
+    .icon {
+      width: 40px;
+      height: 40px;
+    }
+    .icons-row {
+      display: inline-block;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fine Cigar Menu</h1>
+  <p style="text-align:center; font-style: italic; color: #6a4a2d;">Explore our curated selection from the finest cigar houses.</p>
+
+  <!-- Padrón -->
+  <div class="brand-section" id="padron">
+    <h2>Padrón</h2>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=🌑" alt="Full Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">1964 Anniversary Maduro</div>
+        <div><span class="label">Wrapper:</span> Maduro (Nicaraguan)</div>
+        <div><span class="label">Flavor Notes:</span> Cocoa, coffee, pepper, cedar</div>
+        <div><span class="label">Strength:</span> Full</div>
+        <div><span class="label">Cut Recommendation:</span> Straight cut</div>
+      </div>
+    </div>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=🌑" alt="Full Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">1926 Serie</div>
+        <div><span class="label">Wrapper:</span> Natural or Maduro</div>
+        <div><span class="label">Flavor Notes:</span> Cedar, chocolate, spice</div>
+        <div><span class="label">Strength:</span> Full</div>
+        <div><span class="label">Cut Recommendation:</span> Straight cut</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plasencia -->
+  <div class="brand-section" id="plasencia">
+    <h2>Plasencia</h2>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=☕" alt="Medium Strength" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">Alma del Campo</div>
+        <div><span class="label">Wrapper:</span> Nicaraguan Habano</div>
+        <div><span class="label">Flavor Notes:</span> Earth, coffee, nuts, cream</div>
+        <div><span class="label">Strength:</span> Medium</div>
+        <div><span class="label">Cut Recommendation:</span> Straight or V‑cut</div>
+      </div>
+    </div>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=🔲" alt="Full Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">Alma Fuerte</div>
+        <div><span class="label">Wrapper:</span> Maduro (Nicaraguan)</div>
+        <div><span class="label">Flavor Notes:</span> Dark chocolate, spice, oak</div>
+        <div><span class="label">Strength:</span> Full</div>
+        <div><span class="label">Cut Recommendation:</span> Straight cut</div>
+      </div>
+    </div>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=🌿" alt="Mild-Medium Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">Reserva Original</div>
+        <div><span class="label">Wrapper:</span> Organic Nicaraguan</div>
+        <div><span class="label">Flavor Notes:</span> Toast, cedar, nuts</div>
+        <div><span class="label">Strength:</span> Mild–Medium</div>
+        <div><span class="label">Cut Recommendation:</span> Straight or punch</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Davidoff -->
+  <div class="brand-section" id="davidoff">
+    <h2>Davidoff</h2>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=🌿" alt="Mild Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">Signature Series</div>
+        <div><span class="label">Wrapper:</span> Ecuadorian Connecticut</div>
+        <div><span class="label">Flavor Notes:</span> Woody, floral, creamy</div>
+        <div><span class="label">Strength:</span> Mild</div>
+        <div><span class="label">Cut Recommendation:</span> Straight cut</div>
+      </div>
+    </div>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=☕" alt="Medium-Full Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">Winston Churchill The Late Hour</div>
+        <div><span class="label">Wrapper:</span> Ecuador Habano Oscuro</div>
+        <div><span class="label">Flavor Notes:</span> Oak barrel, dark chocolate, coffee</div>
+        <div><span class="label">Strength:</span> Full</div>
+        <div><span class="label">Cut Recommendation:</span> Straight or V‑cut</div>
+      </div>
+    </div>
+
+    <div class="cigar">
+      <img src="https://via.placeholder.com/40?text=🔲" alt="Full Body" class="icon">
+      <div class="cigar-info">
+        <div class="cigar-name">Yamasa</div>
+        <div><span class="label">Wrapper:</span> Yamasa Dominican</div>
+        <div><span class="label">Flavor Notes:</span> Earth, spice, coffee</div>
+        <div><span class="label">Strength:</span> Full</div>
+        <div><span class="label">Cut Recommendation:</span> Straight cut</div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
